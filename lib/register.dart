@@ -1,9 +1,7 @@
-import 'package:education_app/ebook.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:education_app/loginpage.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:intl/intl.dart';
 
 class Register extends StatefulWidget {
@@ -318,7 +316,7 @@ class _Register extends State<Register> {
                       borderRadius: BorderRadius.circular(5),
                       border: Border.all(
                         width: 3,
-                        color: Color(0XFF949FA6),
+                        color: Colors.red,
                       ),
                     ),
                     child: Row(
